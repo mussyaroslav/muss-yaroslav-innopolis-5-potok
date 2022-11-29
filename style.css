@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter__name__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.italics {
+  font-style: italic;
+  font-weight: 700;
+  color: red;
+  font-size: 18px;
+}
+
+.delete {
+  text-decoration: line-through;
+  font-weight: 500;
+  color: blue;
+  font-size: 20px;
+}
+
+.under__line {
+  text-decoration: underline;
+  font-weight: 600;
+  color: chartreuse;
+  font-size: 22px;
+}
+
+#note__1,
+#note__2,
+#note__3,
+#note__4,
+#note__5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: darkgoldenrod;
+}
